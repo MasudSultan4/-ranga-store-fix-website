@@ -1,13 +1,16 @@
 body {
   overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
 }
-.search-field {
+
+.text {
+  text-align: center;
+}
+/* .search-field {
   border: none;
   border-radius: 50px;
   padding: 5px;
   outline: none;
-}
+} */
 .search-field:hover {
   outline: none;
   border: none;
@@ -48,6 +51,7 @@ body {
   width: 150px;
   height: 150px;
 }
+
 .cart {
   width: 350px;
   /* border: 1px solid green; */
