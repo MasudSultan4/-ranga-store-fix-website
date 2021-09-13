@@ -7,7 +7,7 @@ const loadProducts = () => {
 const showProducts = (products) => {
   for (const product of products) {
     const rate = product.rating.rate;
-    const ratingQuantity = product.rating.count;
+    const rateCount = product.rating.count;
     const image = product.image;
     const div = document.createElement("div");
     div.classList.add("product");
@@ -19,7 +19,7 @@ const showProducts = (products) => {
     <div class="card-body">
     <div class="row mt-4">
       <div class="col fw-bold">
-       <span class="text-warning">Rating-rate: ${product.rating.rate}</span> <span>(${product.rating.count} reviews)</span>
+       <span class="text-warning">Rating-rate: ${rate}</span> <span>(${rateCount} reviews)</span>
       </div>
     <h4 class="fw-bold mt-3 product-title">${product.title}</h4>
     
